@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Sederhana</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+        img {
+            width: 200px;
+            height: auto;
+            margin-top: 20px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Halo, Selamat Datang!</h1>
+    <p>Ini adalah halaman HTML sederhana dengan teks, gambar, dan tombol.</p>
+    
+    <img src="https://via.placeholder.com/200" alt="Gambar Placeholder">
+    
+    <br>
+    <button onclick="alert('Tombol diklik!')">Klik Saya</button>
+
+</body>
+</html>
